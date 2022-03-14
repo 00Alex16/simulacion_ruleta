@@ -65,12 +65,16 @@ if ($accion == 'iniciar'){
         $apuesta = $consulta['apuesta'];
         $multiplicador = $consulta['multiplicador'];
         if ($consulta['idColor'] == $consulta['idColorGanador']){
-            $sql2 = "UPDATE jugador SET dinero = '$dinero' + '$apuesta' * '$multiplicador' WHERE idJugador = '$idJugador'";
-            mysqli_query($conexion, $sql2); //ejecuta la consulta
+            $sql = "UPDATE jugador SET dinero = ('$dinero' + ('$apuesta' * '$multiplicador')) WHERE idJugador = '$idJugador'";
+            mysqli_query($conexion, $sql); //ejecuta la consulta
         }
+        // Obtener cantidad de dinero actualizada
+        $sql = "SELECT dinero FROM jugador WHERE idJugador=$idJugador";
+        $res = mysqli_query($conexion, $sql);
+        $dinero = mysqli_fetch_array($res)[0];
         // Se resta el dinero de la apuesta
-        $sql2 = "UPDATE jugador SET dinero = '$dinero' - '$apuesta' WHERE idJugador = '$idJugador'";
-        mysqli_query($conexion, $sql2); //ejecuta la consulta
+        $sql = "UPDATE jugador SET dinero = '$dinero' - '$apuesta' WHERE idJugador = '$idJugador'";
+        mysqli_query($conexion, $sql); //ejecuta la consulta
     }
 
     // Se crea una nueva ronda
