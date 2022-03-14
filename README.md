@@ -6,7 +6,8 @@ El proyecto se realizó para satisfacer los requisitos propuestos en la siguient
 
 Se debe realizar una simulación, la cual consiste en un grupo dinámico de personas
 jugando a la ruleta. El objetivo es crear un sistema para monitorear una mesa de casino.
-Competencias:
+
+### Competencias:
 ● Desarrollar una aplicación en php, .Net, Javascript o RoR.
 ● Deben existir vistas que permitan ingresar jugadores, a los cuales se les pueden
 modificar sus datos, incluyendo cantidad de dinero que poseen, y se deben poder
