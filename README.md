@@ -1,6 +1,6 @@
 # Simulación ruleta
 
-El proyecto se realizó para satisfacer los requisitos propuestos en la siguiente prueba de programación:
+El proyecto se desarrolló con PHP, Bootstrap y MySQL. Se realizó para satisfacer los requisitos propuestos en la siguiente prueba de programación:
 
 ## Prueba de Programación
 
@@ -41,4 +41,6 @@ es obligatoria.
 
 ● Cualquier cosa no especificada queda a criterio del desarrollador.
 
-H
+## Consideraciones
+
+● Las rondas de juego no transcurren con cada recarga de la página, sino que se tiene un botón para hacer las apuestas y otro para obtener los resultados de la ruleta.
