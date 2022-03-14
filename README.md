@@ -48,5 +48,19 @@ es obligatoria.
 ## Instrucciones
 
 ● La página principal de la aplicación es una vista en la que se puede acceder al CRUD de jugadores o iniciar un juego nuevo.
-● Al acceder al CRUD de jugadores se carga una lista con los jugadores almacenados en la base de datos y es posible realizar las diferentes operaciones.
+
+● Al acceder al CRUD de jugadores se carga una lista con los jugadores almacenados en la base de datos y es posible realizar las diferentes operaciones sobre cada jugador.
+
 ● Al iniciar un juego nuevo se cargan los participantes y se tiene la opción de "Hacer las apuestas" para establecer el color y el valor de la apuesta a cada jugador. Luego, se habilita la opción de "Obtener resultados" para establecer el color ganador de la ronda.
+
+## Acceso a la aplicación
+
+### Localmente
+
+Para acceder a la aplicación localmente es necesario descargar los archivos del repositorio, montar el entorno local y la base de datos "bd_ruleta.sql".
+
+### Remotamente
+
+La aplicación está subida a un servidor en Heroku y la base de datos está en la página de "db4free.net". Es posible acceder a ella por medio del siguiente enlace:
+
+https://simulacion-ruleta.herokuapp.com
