@@ -55,7 +55,7 @@ include_once('control/conexion.php');
                 <?php } ?>
                 <button onclick="location.href='crear_jugadores.php'" title="Jugadores" class="btn btn-dark">Añadir jugador</button>
                 <hr/>
-                <button onclick="location.href='index.php'" title="Jugadores" class="btn btn-dark">Volver a la página de monitoreo</button>
+                <button onclick="location.href='../index.php'" title="Jugadores" class="btn btn-dark">Volver a la página de monitoreo</button>
             </div>
         </div>
         <div class="col-3"></div>

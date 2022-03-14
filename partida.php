@@ -130,7 +130,7 @@ if (isset($_GET['ronda'])){
             <br/>
             <hr/>
             <div class="d-grid col-10 mx-auto">
-                <button onclick="location.href='admin/index.php'" title="Terminar juego" class="btn btn-danger">Terminar juego</button>
+                <button onclick="location.href='index.php'" title="Terminar juego" class="btn btn-danger">Terminar juego</button>
             </div>
         </div>
         <div class="col-4"></div>
