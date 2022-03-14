@@ -44,3 +44,9 @@ es obligatoria.
 ## Consideraciones
 
 ● Las rondas de juego no transcurren con cada recarga de la página, sino que se tiene un botón para hacer las apuestas y otro para obtener los resultados de la ruleta.
+
+## Instrucciones
+
+● La página principal de la aplicación es una vista en la que se puede acceder al CRUD de jugadores o iniciar un juego nuevo.
+● Al acceder al CRUD de jugadores se carga una lista con los jugadores almacenados en la base de datos y es posible realizar las diferentes operaciones.
+● Al iniciar un juego nuevo se cargan los participantes y se tiene la opción de "Hacer las apuestas" para establecer el color y el valor de la apuesta a cada jugador. Luego, se habilita la opción de "Obtener resultados" para establecer el color ganador de la ronda.
