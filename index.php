@@ -6,7 +6,7 @@ include_once('cabecera.php');
     <div class="row col-6 align-items-center mx-auto vh-100">
         <h1 class="text-center">Monitoreo de la mesa de casino</h1>
         <div class="d-grid gap-2 col-8 mx-auto">
-            <button onclick="location.href='jugadores.php'" title="Jugadores" class="btn btn-dark">Jugadores</button>
+            <button onclick="location.href='admin/jugadores.php'" title="Jugadores" class="btn btn-dark">Jugadores</button>
             <form action="control/c_partida.php" method="POST">
                 <input type="hidden" name="accion" value="iniciar">
                 <div class="d-grid gap-2">
