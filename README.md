@@ -9,7 +9,6 @@ jugando a la ruleta. El objetivo es crear un sistema para monitorear una mesa de
 
 ### Competencias:
 ● Desarrollar una aplicación en php, .Net, Javascript o RoR.
-
 ● Deben existir vistas que permitan ingresar jugadores, a los cuales se les pueden
 modificar sus datos, incluyendo cantidad de dinero que poseen, y se deben poder
 eliminar del sistema (CRUD).
