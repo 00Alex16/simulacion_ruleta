@@ -1,5 +1,5 @@
 <?php
-    $ambienteLocal = True;
+    $ambienteLocal = false;
 
     if ($ambienteLocal == True){
         $servername = "127.0.0.1";
@@ -7,10 +7,10 @@
         $username = "root";
         $password = "";
     } else {
-        $servername = "localhost";
-        $database = "simulacion_ruleta";
-        $username = "root";
-        $password = "";
+        $servername = "db4free.net";
+        $database = "bd_ruleta";
+        $username = "jalex_bd";
+        $password = "a3127876300a";
     }
     
     $conexion = mysqli_connect($servername, $username, $password, $database);
