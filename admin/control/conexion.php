@@ -10,7 +10,7 @@
         $servername = "db4free.net";
         $database = "bd_ruleta";
         $username = "jalex_bd";
-        $password = "a3127876300a";
+        $password = "bd_ruleta_pass";
     }
     
     $conexion = mysqli_connect($servername, $username, $password, $database);
